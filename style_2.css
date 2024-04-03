@@ -1,0 +1,118 @@
+.header-style {
+    background-color: black;
+}
+
+.logo {
+    float: left;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-ul {
+    display: flex;
+    gap: 30px;
+    margin-right: 30px;
+}
+
+.nav-li {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.link {
+    text-decoration: none;
+    color: azure;
+}
+
+.top {
+    padding: 100px;
+    padding-bottom: 100px;
+    
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.grid-item {
+   border: 1px solid black;
+   border-radius: 20px;
+   padding: 10px;
+   margin: 20px;
+   display: flex;
+   max-width: 450px;
+    
+}
+
+.photos {
+    border-radius: 20px;
+    width:380px;
+    height:500px;
+}
+
+h2 {
+    font-size: 50px;
+    padding-left: 20px;
+
+}
+
+.acent {
+    color: rgba(120, 27, 27, 0.859);
+    font-weight: 900;
+}
+
+.about-text {
+    color: rgb(82, 82, 82);
+    font-size: large;
+    padding: 20px;
+    
+}
+
+.text {
+    max-width: 100px;
+
+}
+
+.footer-style {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    color: azure;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.text-f {
+    font-variant: small-caps;
+    padding: 20px;
+    text-align: center;
+}
+
+.icon{
+    width: 48px;
+    height: 48px;
+    display: inline;
+    padding: 10px;
+}
+
+.logo-f {
+    padding: 20px;
+    width: 48px;
+    height: 48px;
+    
+}
+
+.img-f {
+    display: block;
+}
+
+* {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
