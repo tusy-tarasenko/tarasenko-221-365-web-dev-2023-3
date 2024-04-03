@@ -1,0 +1,10 @@
+﻿
+@media print {
+    body {
+        font-size: 55px;
+        font-family: 'qRoboto', sans-serif !important;
+    }
+    .header {
+        display: none;
+    }
+}
